@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/motorola/msm8226-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/msm8226-common/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
+    vendor/motorola/msm8226-common/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/motorola/msm8226-common/proprietary/lib/libchromatix_ar0543_common.so:system/lib/libchromatix_ar0543_common.so \
     vendor/motorola/msm8226-common/proprietary/lib/libchromatix_ar0543_default_video.so:system/lib/libchromatix_ar0543_default_video.so \
     vendor/motorola/msm8226-common/proprietary/lib/libchromatix_ar0543_hfr_60.so:system/lib/libchromatix_ar0543_hfr_60.so \
