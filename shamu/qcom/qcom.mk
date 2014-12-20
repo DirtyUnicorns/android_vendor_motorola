@@ -61,16 +61,19 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/qcom/proprietary/sap.conf:system/etc/sap.conf:qcom \
     vendor/motorola/shamu/qcom/proprietary/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf:qcom \
     vendor/motorola/shamu/qcom/proprietary/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf:qcom \
+    vendor/motorola/shamu/qcom/proprietary/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/audio.primary.msm8084.so:system/lib/hw/audio.primary.msm8084.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/gps.msm8084.so:system/lib/hw/gps.msm8084.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/libaudioroute.so:system/lib/libaudioroute.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/libdetectmodem.so:system/lib/libdetectmodem.so:qcom \
+    vendor/motorola/shamu/qcom/proprietary/libflacencoder.so:system/lib/libflacencoder.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/libgps.utils.so:system/lib/libgps.utils.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/libloc_core.so:system/lib/libloc_core.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/libloc_eng.so:system/lib/libloc_eng.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/libmdmdetect.so:system/lib/libmdmdetect.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/libmm-qcamera.so:system/lib/libmm-qcamera.so:qcom \
+    vendor/motorola/shamu/qcom/proprietary/libmotaudioutils.so:system/lib/libmotaudioutils.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/librmnetctl.so:system/lib/librmnetctl.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/libtinycompress.so:system/lib/libtinycompress.so:qcom \
     vendor/motorola/shamu/qcom/proprietary/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so:qcom \

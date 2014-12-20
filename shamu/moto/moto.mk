@@ -14,6 +14,7 @@
 
 # Motorola blob(s) necessary for Shamu hardware
 PRODUCT_COPY_FILES := \
+    vendor/motorola/shamu/moto/proprietary/mdm_helper_proxy:system/bin/mdm_helper_proxy:moto \
     vendor/motorola/shamu/moto/proprietary/adspd:system/bin/adspd:moto \
     vendor/motorola/shamu/moto/proprietary/ramdump:system/bin/ramdump:moto \
     vendor/motorola/shamu/moto/proprietary/tcmd_mini:system/bin/tcmd_mini:moto \
@@ -42,9 +43,13 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/moto/proprietary/Handset_cal.acdb:system/etc/Handset_cal.acdb:moto \
     vendor/motorola/shamu/moto/proprietary/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb:moto \
     vendor/motorola/shamu/moto/proprietary/Headset_cal.acdb:system/etc/Headset_cal.acdb:moto \
+    vendor/motorola/shamu/moto/proprietary/fmas_eq.dat:system/etc/fmas_eq.dat:moto \
+    vendor/motorola/shamu/moto/proprietary/audio_voice_apr.cfg:system/etc/diag/audio_voice_apr.cfg:moto \
     vendor/motorola/shamu/moto/proprietary/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml:moto \
     vendor/motorola/shamu/moto/proprietary/Speaker_cal.acdb:system/etc/Speaker_cal.acdb:moto \
     vendor/motorola/shamu/moto/proprietary/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar:moto \
+    vendor/motorola/shamu/moto/proprietary/libnativehelper_compat_libc++.so:system/lib/libnativehelper_compat_libc++.so:moto \
+    vendor/motorola/shamu/moto/proprietary/libtrainingcheck.so:system/lib/libtrainingcheck.so:moto \
     vendor/motorola/shamu/moto/proprietary/libadspd-jni.so:system/lib/libadspd-jni.so:moto \
     vendor/motorola/shamu/moto/proprietary/libadspd.so:system/lib/libadspd.so:moto \
     vendor/motorola/shamu/moto/proprietary/librecoglib.so:system/lib/librecoglib.so:moto \
