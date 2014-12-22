@@ -12,7 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product-if-exists, vendor/motorola/shamu/moto/moto.mk)
-$(call inherit-product-if-exists, vendor/motorola/shamu/broadcom/broadcom.mk)
-$(call inherit-product-if-exists, vendor/motorola/shamu/qcom/qcom.mk)
-$(call inherit-product-if-exists, vendor/motorola/shamu/drm/drm.mk)
+# drm blob(s)
+
+PRODUCT_COPY_FILES := \
+    vendor/motorola/shamu/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so:motorola \
+    vendor/motorola/shamu/drm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so:motorola \
+
