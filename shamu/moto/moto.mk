@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/moto/proprietary/Headset_cal.acdb:system/etc/Headset_cal.acdb:moto \
     vendor/motorola/shamu/moto/proprietary/fmas_eq.dat:system/etc/fmas_eq.dat:moto \
     vendor/motorola/shamu/moto/proprietary/audio_voice_apr.cfg:system/etc/diag/audio_voice_apr.cfg:moto \
+    vendor/motorola/shamu/moto/proprietary/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml:moto \
     vendor/motorola/shamu/moto/proprietary/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml:moto \
     vendor/motorola/shamu/moto/proprietary/Speaker_cal.acdb:system/etc/Speaker_cal.acdb:moto \
     vendor/motorola/shamu/moto/proprietary/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar:moto \

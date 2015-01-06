@@ -12,6 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+# Apps
+PRODUCT_PACKAGES += \
+    TriggerEnroll \
+    TriggerTrainingService
+
+$(call inherit-product-if-exists, vendor/motorola/shamu/moto/Android.mk)
 $(call inherit-product-if-exists, vendor/motorola/shamu/moto/moto.mk)
 $(call inherit-product-if-exists, vendor/motorola/shamu/broadcom/broadcom.mk)
 $(call inherit-product-if-exists, vendor/motorola/shamu/qcom/qcom.mk)
