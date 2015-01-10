@@ -16,10 +16,12 @@
 # Apps
 PRODUCT_PACKAGES += \
     TriggerEnroll \
-    TriggerTrainingService
+    TriggerTrainingService \
+    TimeService
 
 $(call inherit-product-if-exists, vendor/motorola/shamu/moto/Android.mk)
 $(call inherit-product-if-exists, vendor/motorola/shamu/moto/moto.mk)
 $(call inherit-product-if-exists, vendor/motorola/shamu/broadcom/broadcom.mk)
+$(call inherit-product-if-exists, vendor/motorola/shamu/qcom/Android.mk)
 $(call inherit-product-if-exists, vendor/motorola/shamu/qcom/qcom.mk)
 $(call inherit-product-if-exists, vendor/motorola/shamu/drm/drm.mk)
