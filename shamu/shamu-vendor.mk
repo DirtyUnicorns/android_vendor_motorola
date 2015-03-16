@@ -17,7 +17,8 @@
 PRODUCT_PACKAGES += \
     TriggerEnroll \
     TriggerTrainingService \
-    TimeService
+    TimeService \
+    BuaContactAdapter
 
 $(call inherit-product-if-exists, vendor/motorola/shamu/moto/Android.mk)
 $(call inherit-product-if-exists, vendor/motorola/shamu/moto/moto.mk)

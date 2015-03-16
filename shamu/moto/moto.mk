@@ -19,8 +19,8 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/moto/proprietary/ramdump:system/bin/ramdump:moto \
     vendor/motorola/shamu/moto/proprietary/tcmd_mini:system/bin/tcmd_mini:moto \
     vendor/motorola/shamu/moto/proprietary/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb:moto \
-    vendor/motorola/shamu/moto/proprietary/FIT_V12.cfg:system/etc/diag/FIT_V12.cfg:moto \
-    vendor/motorola/shamu/moto/proprietary/FIT_V12.cfg:system/etc/diag/mdm/FIT_V12.cfg:moto \
+    vendor/motorola/shamu/moto/proprietary/FIT_V15.cfg:system/etc/diag/FIT_V15.cfg:moto \
+    vendor/motorola/shamu/moto/proprietary/FIT_V15_audio.cfg:system/etc/diag/mdm/FIT_V15_audio.cfg:moto \
     vendor/motorola/shamu/moto/proprietary/sensors_qxdm.cfg:system/etc/diag/mdm/sensors_qxdm.cfg:moto \
     vendor/motorola/shamu/moto/proprietary/sensors_qxdm.cfg:system/etc/diag/sensors_qxdm.cfg:moto \
     vendor/motorola/shamu/moto/proprietary/vpu.b00:system/etc/firmware/vpu.b00:moto \
@@ -57,7 +57,7 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/moto/proprietary/libsupermodel.so:system/lib/libsupermodel.so:moto \
     vendor/motorola/shamu/moto/proprietary/acdb.mbn:system/vendor/firmware/acdb.mbn:moto \
     vendor/motorola/shamu/moto/proprietary/atmel-a432-14061601-0102aa-shamu-p1.tdat:system/vendor/firmware/atmel-a432-14061601-0102aa-shamu-p1.tdat:moto \
-    vendor/motorola/shamu/moto/proprietary/atmel-a432-14101503-0103aa-shamu.tdat:system/vendor/firmware/atmel-a432-14101503-0103aa-shamu.tdat:moto \
+    vendor/motorola/shamu/moto/proprietary/atmel-a432-14103001-0103aa-shamu.tdat:system/vendor/firmware/atmel-a432-14103001-0103aa-shamu.tdat:moto \
     vendor/motorola/shamu/moto/proprietary/left.boost.music.eq:system/vendor/firmware/left.boost.music.eq:moto \
     vendor/motorola/shamu/moto/proprietary/left.boost_music_table.preset:system/vendor/firmware/left.boost_music_table.preset:moto \
     vendor/motorola/shamu/moto/proprietary/left.boost_n1b12.patch:system/vendor/firmware/left.boost_n1b12.patch:moto \
@@ -66,7 +66,7 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/moto/proprietary/left.boost_ringtone_table.preset:system/vendor/firmware/left.boost_ringtone_table.preset:moto \
     vendor/motorola/shamu/moto/proprietary/left.boost.speaker:system/vendor/firmware/left.boost.speaker:moto \
     vendor/motorola/shamu/moto/proprietary/left.boost.voice.eq:system/vendor/firmware/left.boost.voice.eq:moto \
-   vendor/motorola/shamu/moto/proprietary/left.boost_voice_table.preset:system/vendor/firmware/left.boost_voice_table.preset:moto \
+    vendor/motorola/shamu/moto/proprietary/left.boost_voice_table.preset:system/vendor/firmware/left.boost_voice_table.preset:moto \
     vendor/motorola/shamu/moto/proprietary/left.boost_ringtone_table.preset:system/vendor/firmware/left.boost_ringtone_table.preset:moto \
     vendor/motorola/shamu/moto/proprietary/left.boost.speaker:system/vendor/firmware/left.boost.speaker:moto \
     vendor/motorola/shamu/moto/proprietary/left.boost.voice.config:system/vendor/firmware/left.boost.voice.config:moto \
@@ -124,4 +124,3 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/moto/proprietary/svsid_triggerogn_enus_3_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_enus_3_1.raw:moto \
     vendor/motorola/shamu/moto/proprietary/svsid_triggerogn_frfr_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw:moto \
     vendor/motorola/shamu/moto/proprietary/svsid_triggerogn_ptbr_2_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:moto \
-
