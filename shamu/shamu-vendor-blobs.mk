@@ -232,14 +232,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/motorola/shamu/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/motorola/shamu/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-<<<<<<< HEAD
-    vendor/motorola/shamu/proprietary/bin/diag_qshrink4_daemon:system/bin/diag_qshrink4_daemon \
-    vendor/motorola/shamu/proprietary/bin/PktRspTest:system/bin/PktRspTest \
-    vendor/motorola/shamu/proprietary/bin/ramdump:system/bin/ramdump \
-    vendor/motorola/shamu/proprietary/bin/rundiag:system/bin/rundiag \
-    vendor/motorola/shamu/proprietary/bin/test_diag:system/bin/test_diag \
-=======
->>>>>>> 772287f... shamu: LMY47I
     vendor/motorola/shamu/proprietary/etc/diag/mdm/FIT_V15_audio.cfg:system/etc/diag/mdm/FIT_V15_audio.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/mdm/FIT_V15.cfg:system/etc/diag/mdm/FIT_V15.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/mdm/sensors_qxdm.cfg:system/etc/diag/mdm/sensors_qxdm.cfg \
