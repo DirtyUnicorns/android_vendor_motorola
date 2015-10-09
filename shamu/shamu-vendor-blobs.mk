@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/shamu/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/motorola/shamu/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+    vendor/motorola/shamu/proprietary/etc/diag/mdm/voice-call-min-log.cfg:system/etc/diag/mdm/voice-call-min-log.cfg \
     vendor/motorola/shamu/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/motorola/shamu/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/motorola/shamu/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -124,6 +125,7 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/proprietary/lib/librecoglib.so:system/lib/librecoglib.so \
     vendor/motorola/shamu/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
     vendor/motorola/shamu/proprietary/lib/libxml2.so:system/lib/libxml2.so \
+    vendor/motorola/shamu/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
     vendor/motorola/shamu/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
     vendor/motorola/shamu/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/motorola/shamu/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
@@ -131,6 +133,7 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/proprietary/vendor/lib/libmotext_inf.so:system/vendor/lib/libmotext_inf.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libqmimotext.so:system/vendor/lib/libqmimotext.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libsysutils_local.so:system/vendor/lib/libsysutils_local.so \
+    vendor/motorola/shamu/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/motorola/shamu/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/motorola/shamu/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/motorola/shamu/proprietary/vendor/firmware/adsp.b00:system/vendor/firmware/adsp.b00 \
@@ -244,6 +247,7 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/proprietary/vendor/lib/libchromatix_imx135_video_hd.so:system/vendor/lib/libchromatix_imx135_video_hd.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libchromatix_imx214_cpp.so:system/vendor/lib/libchromatix_imx214_cpp.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/libchromatix_imx214_cpp_snap.so:system/vendor/lib/libchromatix_imx214_cpp_snap.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libchromatix_imx214_hfr_120.so:system/vendor/lib/libchromatix_imx214_hfr_120.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libchromatix_imx214_hfr_60.so:system/vendor/lib/libchromatix_imx214_hfr_60.so \
@@ -252,17 +256,36 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libchromatix_imx214_snapshot.so:system/vendor/lib/libchromatix_imx214_snapshot.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-ims-setting-jni.so:system/vendor/lib/lib-ims-setting-jni.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-ims-settings.so:system/vendor/lib/lib-ims-settings.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/motorola/shamu/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -367,10 +390,12 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/shamu/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
