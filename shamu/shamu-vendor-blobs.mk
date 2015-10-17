@@ -284,6 +284,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/motorola/shamu/proprietary/lib/hw/gps.msm8084.so:system/lib/hw/gps.msm8084.so \
     vendor/motorola/shamu/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/motorola/shamu/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/motorola/shamu/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
+    vendor/motorola/shamu/proprietary/lib/libimscamera_jni.so:app/ims/lib/arm/libimscamera_jni.so \
+    vendor/motorola/shamu/proprietary/lib/libimsmedia_jni.so:app/ims/lib/arm/libimsmedia_jni.so \
     vendor/motorola/shamu/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/motorola/shamu/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/motorola/shamu/proprietary/vendor/lib/hw/activity_recognition.msm8084.so:system/vendor/lib/hw/activity_recognition.msm8084.so \
