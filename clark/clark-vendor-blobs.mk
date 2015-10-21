@@ -276,6 +276,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/motorola/clark/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/clark/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/motorola/clark/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
@@ -617,8 +618,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/motorola/clark/proprietary/vendor/lib64/hw/activity_recognition.msm8992.so:system/vendor/lib64/hw/activity_recognition.msm8992.so \
     vendor/motorola/clark/proprietary/vendor/lib/hw/activity_recognition.msm8992.so:system/vendor/lib/hw/activity_recognition.msm8992.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
-    vendor/motorola/clark/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/motorola/clark/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/clark/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/motorola/clark/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
