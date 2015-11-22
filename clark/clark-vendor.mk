@@ -20,17 +20,13 @@ $(call inherit-product, vendor/motorola/clark/clark-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-    atfwd \
-    ims \
     MotGeoFenceSvc \
     TimeService
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
-    cneapiclient \
+    com.google.widevine.software.drm \
     com.motorola.motosignature \
-    com.quicinc.cne \
-    com.verizon.ims \
     org.simalliance.openmobileapi \
     qcnvitems \
     qcrilhook
