@@ -18,25 +18,6 @@
 
 $(call inherit-product, vendor/motorola/clark/clark-vendor-blobs.mk)
 
-# Prebuilt APKs
-PRODUCT_PACKAGES += \
-    MotGeoFenceSvc \
-    TimeService
-
-# Prebuilt jars
-PRODUCT_PACKAGES += \
-    com.google.widevine.software.drm \
-    com.motorola.motosignature \
-    org.simalliance.openmobileapi \
-    qcnvitems \
-    qcrilhook
-
-# Prebuilt privileged APKs
-PRODUCT_PACKAGES += \
-    CNEService \
-    com.qualcomm.location \
-    qcrilmsgtunnel
-
 # Prebuilt multilibs
 PRODUCT_PACKAGES += \
     libtime_genoff.so
