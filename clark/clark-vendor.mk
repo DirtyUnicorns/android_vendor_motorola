@@ -18,7 +18,20 @@
 
 $(call inherit-product, vendor/motorola/clark/clark-vendor-blobs.mk)
 
-# Prebuilt multilibs
+# Prebuilt jars
 PRODUCT_PACKAGES += \
-    libtime_genoff.so
+    org.simalliance.openmobileapi \
+    qcnvitems \
+    qcrilhook
+
+# Prebuilt privileged APKs
+PRODUCT_PACKAGES += \
+    qcrilmsgtunnel
+
+# Prebuilt libs needed for compilation
+PRODUCT_PACKAGES += \
+
+# Prebuilt vendor/libs needed for compilation
+PRODUCT_PACKAGES += \
+    libtime_genoff
 
