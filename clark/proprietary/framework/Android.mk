@@ -19,6 +19,24 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),clark)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := com.motorola.motosignature
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := com.motorola.motosignature.jar
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.verizon.ims
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := com.verizon.ims.jar
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := org.simalliance.openmobileapi
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := org.simalliance.openmobileapi.jar

@@ -18,14 +18,22 @@
 
 $(call inherit-product, vendor/motorola/clark/clark-vendor-blobs.mk)
 
+# Prebuilt APKs
+PRODUCT_PACKAGES += \
+    MotoSignatureApp
+
 # Prebuilt jars
 PRODUCT_PACKAGES += \
+    com.motorola.motosignature \
+    com.verizon.ims \
     org.simalliance.openmobileapi \
     qcnvitems \
     qcrilhook
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
+    atfwd \
+    ims \
     qcrilmsgtunnel
 
 # Prebuilt libs needed for compilation
