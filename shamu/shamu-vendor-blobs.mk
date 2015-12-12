@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/vendor/firmware/adsp.b12:system/vendor/firmware/adsp.b12 \
     vendor/motorola/shamu/proprietary/vendor/firmware/adsp.mdt:system/vendor/firmware/adsp.mdt \
     vendor/motorola/shamu/proprietary/vendor/firmware/VRGain.bin:system/vendor/firmware/VRGain.bin \
-    vendor/motorola/shamu/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
+    vendor/motorola/shamu/proprietary/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/motorola/shamu/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/motorola/shamu/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/motorola/shamu/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
