@@ -103,6 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/clark/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/clark/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
+    vendor/motorola/clark/proprietary/etc/user_bhd_psy.conf:system/etc/user_bhd_psy.conf \
     vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
     vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/motorola/clark/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
@@ -115,7 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/motorola/clark/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/motorola/clark/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/motorola/clark/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/motorola/clark/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/motorola/clark/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -138,7 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/clark/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
     vendor/motorola/clark/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
-    vendor/motorola/clark/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/clark/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/clark/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/motorola/clark/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
