@@ -637,6 +637,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/clark/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/clark/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/motorola/clark/proprietary/bin/fsck.exfat:system/bin/fsck.exfat \
     vendor/motorola/clark/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/clark/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/motorola/clark/proprietary/bin/ssr_setup:system/bin/ssr_setup
