@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
+    com.google.widevine.software.drm \
     com.motorola.motosignature \
     com.verizon.ims \
     org.simalliance.openmobileapi \
