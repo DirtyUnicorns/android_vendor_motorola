@@ -357,6 +357,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/clark/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/motorola/clark/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/motorola/clark/proprietary/etc/izat.conf:system/etc/izat.conf \
+    vendor/motorola/clark/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/motorola/clark/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/motorola/clark/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/clark/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
