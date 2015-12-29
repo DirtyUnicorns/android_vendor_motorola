@@ -378,6 +378,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/clark/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/motorola/clark/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/motorola/clark/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
+    vendor/motorola/clark/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/motorola/clark/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
+    vendor/motorola/clark/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/motorola/clark/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+    vendor/motorola/clark/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libloc_xtra.so:system/vendor/lib64/libloc_xtra.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libloc_xtra.so:system/vendor/lib/libloc_xtra.so \
     vendor/motorola/clark/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/motorola/clark/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/motorola/clark/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -619,6 +627,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libquipc_ulp_adapter.so:system/vendor/lib64/libquipc_ulp_adapter.so \
     vendor/motorola/clark/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
     vendor/motorola/clark/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/motorola/clark/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/motorola/clark/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
