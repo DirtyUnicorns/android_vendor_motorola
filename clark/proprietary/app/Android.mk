@@ -19,6 +19,24 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),clark)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := DMConfigUpdateLight
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := DMConfigUpdateLight/DMConfigUpdateLight.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := HiddenMenuLight
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := HiddenMenuLight/HiddenMenuLight.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := MotoSignatureApp
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := MotoSignatureApp/MotoSignatureApp.apk

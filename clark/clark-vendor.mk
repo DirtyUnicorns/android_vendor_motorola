@@ -20,6 +20,8 @@ $(call inherit-product, vendor/motorola/clark/clark-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
+    DMConfigUpdateLight \
+    HiddenMenuLight \
     MotoSignatureApp
 
 # Prebuilt jars
@@ -35,8 +37,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     atfwd \
     CNEService \
+    ConnMO \
+    CQATest \
+    DCMO \
+    DiagMon \
+    DMService \
     ims \
-    qcrilmsgtunnel
+    LifetimeData \
+    qcrilmsgtunnel \
+    SprintDM
 
 # Prebuilt libs needed for compilation
 PRODUCT_PACKAGES += \
