@@ -442,8 +442,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/motorola/clark/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/motorola/clark/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/motorola/clark/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/clark/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -468,44 +466,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/motorola/clark/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/motorola/clark/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/motorola/clark/proprietary/vendor/lib64/libDivxDrm.so:system/vendor/lib64/libDivxDrm.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/motorola/clark/proprietary/vendor/lib/libDxHdcp.so:system/vendor/lib/libDxHdcp.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/motorola/clark/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
     vendor/motorola/clark/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/motorola/clark/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libmmparser.so:system/vendor/lib64/libmmparser.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libSHIMDivxDrm.so:system/vendor/lib64/libSHIMDivxDrm.so \
     vendor/motorola/clark/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/motorola/clark/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/clark/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/clark/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
-    vendor/motorola/clark/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/motorola/clark/proprietary/etc/firmware/BCM20795A2_001.003.025.0005.0048_Generic_I2C_NCD_Signed_configdata.ncd:system/etc/firmware/BCM20795A2_001.003.025.0005.0048_Generic_I2C_NCD_Signed_configdata.ncd \
-    vendor/motorola/clark/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/motorola/clark/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/motorola/clark/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
@@ -622,6 +595,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
     vendor/motorola/clark/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/motorola/clark/proprietary/lib64/hw/sensorhub.msm8992.so:system/lib64/hw/sensorhub.msm8992.so \
+    vendor/motorola/clark/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/motorola/clark/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/clark/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/motorola/clark/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
