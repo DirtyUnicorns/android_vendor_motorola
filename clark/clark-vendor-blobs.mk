@@ -603,7 +603,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/motorola/clark/proprietary/lib/soundfx/libmmieffectswrapper.so:system/lib/soundfx/libmmieffectswrapper.so \
     vendor/motorola/clark/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/motorola/clark/proprietary/bin/fsck.exfat:system/bin/fsck.exfat \
     vendor/motorola/clark/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/motorola/clark/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/motorola/clark/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
