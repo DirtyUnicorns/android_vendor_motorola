@@ -23,7 +23,8 @@ PRODUCT_PACKAGES += \
     DMConfigUpdateLight \
     HiddenMenuLight \
     ims \
-    MotoSignatureApp
+    MotoSignatureApp \
+    TimeService
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
