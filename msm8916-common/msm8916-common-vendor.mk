@@ -15,6 +15,9 @@
 PRODUCT_PACKAGES += \
     TimeService \
     qcrilmsgtunnel \
+    ims \
+    imssettings \
+    imscmlibrary \
     qcnvitems \
     qcrilhook \
     libHevcSwDecoder
