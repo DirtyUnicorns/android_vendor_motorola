@@ -129,5 +129,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/motorola/osprey/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so
+    vendor/motorola/osprey/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so
