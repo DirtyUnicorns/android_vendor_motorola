@@ -211,3 +211,7 @@ PRODUCT_PACKAGES += \
     imscmlibrary \
     qcnvitems \
     qcrilhook
+
+# Prebuilt privileged APKs
+PRODUCT_PACKAGES += \
+    HotwordEnrollment

@@ -88,6 +88,16 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := HotwordEnrollment
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollment/HotwordEnrollment.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := qcnvitems
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/framework/qcnvitems.jar
