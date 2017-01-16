@@ -45,6 +45,7 @@ PRODUCT_PACKAGES += \
     DiagMon \
     DMService \
     GCS \
+    HotwordEnrollment \
     LifetimeData \
     MotoSignatureApp \
     SprintDM \
