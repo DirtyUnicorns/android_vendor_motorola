@@ -605,4 +605,5 @@ PRODUCT_PACKAGES += \
     GCS \
     LifetimeData \
     qcrilmsgtunnel \
-    SprintDM
+    SprintDM \
+    Turbo
