@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/motorola/shamu/proprietary/lib/libjingle_peerconnection_so.so:system/lib/libjingle_peerconnection_so.so \
     vendor/motorola/shamu/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/motorola/shamu/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/motorola/shamu/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
