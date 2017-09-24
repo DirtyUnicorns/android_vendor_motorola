@@ -55,9 +55,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/lib/libflacencoder.so:system/lib/libflacencoder.so \
     vendor/motorola/shamu/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/shamu/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
-    vendor/motorola/shamu/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
-    vendor/motorola/shamu/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
-    vendor/motorola/shamu/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libqcompostprocbundle.so:system/vendor/lib/soundfx/libqcompostprocbundle.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:system/vendor/lib/soundfx/libqcomvisualizer.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:system/vendor/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libqcomvoiceprocessingdescriptors.so:system/vendor/lib/soundfx/libqcomvoiceprocessingdescriptors.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
