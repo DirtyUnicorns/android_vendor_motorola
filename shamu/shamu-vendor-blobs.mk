@@ -90,8 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf \
     vendor/moto/shamu/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
     vendor/moto/shamu/proprietary/lib/hw/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so \
-    vendor/moto/shamu/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
-    vendor/moto/shamu/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
     vendor/moto/shamu/proprietary/lib/libadspd-jni.so:system/lib/libadspd-jni.so \
     vendor/moto/shamu/proprietary/lib/libadspd.so:system/lib/libadspd.so \
     vendor/moto/shamu/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
@@ -180,6 +178,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/vendor/lib/hw/flp.msm8084.so:system/vendor/lib/hw/flp.msm8084.so \
     vendor/moto/shamu/proprietary/vendor/lib/hw/sensors.msm8084.so:system/vendor/lib/hw/sensors.msm8084.so \
     vendor/moto/shamu/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/moto/shamu/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
     vendor/moto/shamu/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/moto/shamu/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/moto/shamu/proprietary/vendor/lib/libactuator_lc898122_camcorder.so:system/vendor/lib/libactuator_lc898122_camcorder.so \
