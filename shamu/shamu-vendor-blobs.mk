@@ -333,6 +333,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/moto/shamu/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/moto/shamu/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/moto/shamu/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/moto/shamu/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/moto/shamu/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/moto/shamu/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
