@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/moto/shamu/shamu-vendor-blobs.mk)
+$(call inherit-product, vendor/motorola/shamu/shamu-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
