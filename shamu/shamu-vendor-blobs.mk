@@ -175,6 +175,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/motorola/shamu/proprietary/vendor/lib/hw/activity_recognition.msm8084.so:system/vendor/lib/hw/activity_recognition.msm8084.so \
     vendor/motorola/shamu/proprietary/vendor/lib/hw/flp.msm8084.so:system/vendor/lib/hw/flp.msm8084.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/nfc_nci.bcm2079x.default.so:system/vendor/lib/hw/nfc_nci.bcm2079x.default.so \
     vendor/motorola/shamu/proprietary/vendor/lib/hw/sensors.msm8084.so:system/vendor/lib/hw/sensors.msm8084.so \
     vendor/motorola/shamu/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
