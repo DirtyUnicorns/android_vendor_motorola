@@ -1362,7 +1362,17 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:system/vendor/lib64/vendor.qti.latency@2.0.so \
      vendor/motorola/potter/proprietary/vendor/lib64/libqrtr.so:system/vendor/lib64/libqrtr.so \
      vendor/motorola/potter/proprietary/vendor/lib64/libqsocket.so:system/vendor/lib64/libqsocket.so \
-     vendor/motorola/potter/proprietary/vendor/lib64/com.quicinc.cne.api@1.1.so:system/vendor/lib64/com.quicinc.cne.api@1.1.so
+     vendor/motorola/potter/proprietary/vendor/lib64/com.quicinc.cne.api@1.1.so:system/vendor/lib64/com.quicinc.cne.api@1.1.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:/system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:/system/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:/system/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.data.connection@1.0.so:/system/vendor/lib64/vendor.qti.hardware.data.connection@1.0.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so:/system/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:/system/vendor/lib64/vendor.qti.ims.callinfo@1.0.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so:/system/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/lib-imsrcs-v2.so:/system/vendor/lib64/lib-imsrcs-v2.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/lib-imsrcsbaseimpl.so:/system/vendor/lib64/lib-imsrcsbaseimpl.so \
+     vendor/motorola/potter/proprietary/vendor/lib64/lib-siputility.so:/system/vendor/lib64/lib-siputility.so
 
 PRODUCT_PACKAGES += \
     TimeService \
@@ -1388,4 +1398,3 @@ PRODUCT_PACKAGES += \
     libbtnv \
     WfdService \
     WfdCommon
-
