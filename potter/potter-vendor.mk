@@ -1350,3 +1350,5 @@ PRODUCT_PACKAGES += \
     libbtnv \
     WfdService \
     WfdCommon
+
+PRODUCT_SOONG_NAMESPACES += vendor/motorola/potter
