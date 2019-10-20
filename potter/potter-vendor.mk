@@ -947,7 +947,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.color@1.0.so:system/vendor/lib64/vendor.display.color@1.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.color@1.1.so:system/vendor/lib64/vendor.display.color@1.1.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.color@1.2.so:system/vendor/lib64/vendor.display.color@1.2.so \vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.color@1.2.so:system/vendor/lib64/vendor.display.color@1.2.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.color@1.2.so:system/vendor/lib64/vendor.display.color@1.2.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:system/vendor/lib64/vendor.display.postproc@1.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
     vendor/motorola/potter/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
@@ -1219,7 +1219,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/libwvhidl.so:system/vendor/lib64/libwvhidl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.2.so:system/vendor/lib64/vendor.display.config@1.2.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.3.so:system/vendor/lib64/vendor.display.config@1.3.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.4.so:system/vendor/lib64/vendor.display.config@1.4.so
+        vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.4.so:system/vendor/lib64/vendor.display.config@1.4.so \
+    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.b00:system/vendor/firmware/a506_zap.b00 \
+    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.b01:system/vendor/firmware/a506_zap.b01 \
+    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.b02:system/vendor/firmware/a506_zap.b02 \
+    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.elf:system/vendor/firmware/a506_zap.elf \
+    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.mdt:system/vendor/firmware/a506_zap.mdtvendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.4.so:system/vendor/lib64/vendor.display.config@1.4.so \
+    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.b00:system/vendor/firmware/a506_zap.b00 \
+    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.b01:system/vendor/firmware/a506_zap.b01 \
+    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.b02:system/vendor/firmware/a506_zap.b02 \
+    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.elf:system/vendor/firmware/a506_zap.elf \
+    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.mdt:system/vendor/firmware/a506_zap.mdt
 
 # WFD
 PRODUCT_COPY_FILES += \
