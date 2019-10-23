@@ -1233,18 +1233,7 @@ PRODUCT_COPY_FILES += \
 
 # WFD
 PRODUCT_COPY_FILES += \
-    vendor/motorola/potter/proprietary/vendor/bin/wifidisplayhalservice:system/vendor/bin/wifidisplayhalservice \
-    vendor/motorola/potter/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:system/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
-    vendor/motorola/potter/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
-    vendor/motorola/potter/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libmmosal_proprietary.so:system/vendor/lib/libmmosal_proprietary.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:system/vendor/lib/libwfdcommonutils_proprietary.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libwfdhaldsmanager.so:system/vendor/lib/libwfdhaldsmanager.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libwfdmmservice.so:system/vendor/lib/libwfdmmservice.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libwfdmodulehdcpsession.so:system/vendor/lib/libwfdmodulehdcpsession.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libmmosal_proprietary.so:system/vendor/lib64/libmmosal_proprietary.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libwfdhdcpcp.so:system/vendor/lib64/libwfdhdcpcp.so \
-    vendor/motorola/potter/proprietary/vendor/lib/libgui_vendor.so:system/vendor/lib/libgui_vendor.so \ vendor/motorola/potter/proprietary/bin/wfdservice:system/bin/wfdservice \
+    vendor/motorola/potter/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/motorola/potter/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/motorola/potter/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/motorola/potter/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
