@@ -1216,19 +1216,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/libwvhidl.so:system/vendor/lib64/libwvhidl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.2.so:system/vendor/lib64/vendor.display.config@1.2.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.3.so:system/vendor/lib64/vendor.display.config@1.3.so \
-        vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.4.so:system/vendor/lib64/vendor.display.config@1.4.so \
-    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.b00:system/vendor/firmware/a506_zap.b00 \
-    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.b01:system/vendor/firmware/a506_zap.b01 \
-    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.b02:system/vendor/firmware/a506_zap.b02 \
-    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.elf:system/vendor/firmware/a506_zap.elf \
-    vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.mdt:system/vendor/firmware/a506_zap.mdtvendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.4.so:system/vendor/lib64/vendor.display.config@1.4.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.4.so:system/vendor/lib64/vendor.display.config@1.4.so \
     vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.b00:system/vendor/firmware/a506_zap.b00 \
     vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.b01:system/vendor/firmware/a506_zap.b01 \
     vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.b02:system/vendor/firmware/a506_zap.b02 \
     vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.elf:system/vendor/firmware/a506_zap.elf \
     vendor/motorola/potter/proprietary/vendor/firmware/a506_zap.mdt:system/vendor/firmware/a506_zap.mdt
 
-# WFD
+
 PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/motorola/potter/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
@@ -1330,6 +1325,7 @@ PRODUCT_PACKAGES += \
     com.qti.snapdragon.sdk.display \
     com.qualcomm.location \
     ims \
+    imssettings \
     qcrilmsgtunnel \
     izat.xt.srv \
     atfwd \
@@ -1348,3 +1344,4 @@ PRODUCT_PACKAGES += \
     WfdCommon
 
 PRODUCT_SOONG_NAMESPACES += vendor/motorola/potter
+
