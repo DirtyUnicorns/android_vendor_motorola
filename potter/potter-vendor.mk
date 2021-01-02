@@ -57,7 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/motorola/potter/proprietary/etc/firmware/sensorhubfw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/sensorhubfw.bin \
+    vendor/motorola/potter/proprietary/etc/firmware/sensorhubfw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sensorhubfw.bin \
     vendor/motorola/potter/proprietary/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat \
     vendor/motorola/potter/proprietary/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat \
     vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
